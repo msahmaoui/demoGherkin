@@ -46,6 +46,8 @@ public void lancer_une_recherche_du_mot_publicis_puis_cliquer_sur_le_bouton() th
 	      
 	driver.findElement(By.name("q")).sendKeys("publicis");
     driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+    
+    
 
 }
 
