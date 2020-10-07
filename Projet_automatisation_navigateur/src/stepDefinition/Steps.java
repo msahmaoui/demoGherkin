@@ -51,7 +51,7 @@ public void lancer_une_recherche_du_mot_publicis_puis_cliquer_sur_le_bouton() th
 
 }
 
-
+// Start
 
 @Then("^Consulter la page de resultats et verifier la presence de publicis$")
 public void consulter_la_page_de_resultats_et_verifier_la_presence_de_publicis() throws Throwable {
