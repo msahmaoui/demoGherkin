@@ -43,7 +43,7 @@ public void lancer_Google_Chrome_et_aller_sur_la_page_de_google_fr() throws Thro
 public void lancer_une_recherche_du_mot_publicis_puis_cliquer_sur_le_bouton() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
 	System.out.println("Lancer la recherche publicis");
-	
+	      
 	driver.findElement(By.name("q")).sendKeys("publicis");
     driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
 
