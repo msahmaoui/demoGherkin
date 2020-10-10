@@ -22,7 +22,7 @@ public class Steps {
 
 	WebDriver driver;
 
-     // test jenkins 2
+     // test jenkins
 
 @Given("^Lancer Google Chrome et aller sur la page de google\\.fr$")
 public void lancer_Google_Chrome_et_aller_sur_la_page_de_google_fr() throws Throwable {
