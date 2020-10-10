@@ -1,4 +1,4 @@
-package testRunners;
+package testLanceur;
 
 import org.junit.runner.RunWith;
 
@@ -6,11 +6,8 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="Features", glue={"stepDefintion"})
+@CucumberOptions(features="Features", glue={"scenarioAutomatise"})
 
-
-public class Runner {
-
-	
+public class Lanceur {
 	
 }
