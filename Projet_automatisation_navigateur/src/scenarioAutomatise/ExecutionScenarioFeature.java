@@ -17,6 +17,8 @@ public class ExecutionScenarioFeature {
 
 WebDriver driver;
 
+//Ceci est la demo du 16/10/2020
+
 @Given("^Lancer Google Chrome et aller sur la page de google\\.fr$")
 public void lancer_Google_Chrome_et_aller_sur_la_page_de_google_fr() throws Throwable {
 
